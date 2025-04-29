@@ -3,10 +3,10 @@ public class RandomStringChooser
 {
   /* to be implemented in part (a) */
   private ArrayList<String> words;
-  public RandomStringChooser(String[] WordArray){
+  public RandomStringChooser(String[] wordArray){
     words = new ArrayList<String>();
-    for(int i = 0; i < words.size(); i++){
-      words.add(WordArray[i]);
+    for(String w: wordArray){
+      words.add(w);
     }
   }
   public String getNext(){
